@@ -5,9 +5,9 @@ import Image from 'next/image';
 //Hooks
 import { useRef } from 'react';
 //Styles, Images
+import './Navbar.css'
 import BurguerMenu from '../../public/icons/BurguerMenu.svg';
 import close from '../../public/icons/close.svg';
-import './Navbar.css'
 
 export default function Navbar() {
 
@@ -32,13 +32,13 @@ return (
         <button
           className='nav-btn nav-close-btn'
           onClick={showNavbar}>
-          <Image  src={close} alt="close" />
+          <Image  src={close} alt='close' />
         </button>
       </nav>
       <button
         className='nav-btn'
         onClick={showNavbar}>
-        <Image  src={BurguerMenu} alt="BurguerMenu" />
+        <Image  src={BurguerMenu} alt='BurguerMenu' />
       </button>
     </header>
     <div className='nav-height'></div>

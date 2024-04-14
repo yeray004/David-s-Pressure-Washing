@@ -20,14 +20,31 @@ h1, h2, h3, h4{
 a{
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 button{
   border: 0;
   cursor: pointer;
 }
-footer{
-  background-color: antiquewhite;
-}
 *{
   font-family: 'Lato', sans-serif;
+}
+/* Button styles */
+.btn-style-1, .btn-style-2{
+  padding: .2rem 1.5rem .3rem;
+	background: transparent;
+	border: none;
+	outline: none;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn-style-1{
+  color: #ffff;
+	background: var(--purble-blue);
+}
+.btn-style-2{
+  color: var(--purble-blue);
+  border: 4px solid var(--purble-blue);
+  border-radius: 0 8px 0 8px;
 }
