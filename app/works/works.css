@@ -1,0 +1,110 @@
+.works-title, .work-reviews h2{
+  margin: 1rem 0 0;
+  background-image: var(--linear-blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.works-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+.works-section h3{
+  font-size: 1.5rem;
+  color: var(--purple-blue);
+}
+.works-section p{
+  margin: .5rem 1rem 1rem;
+  text-align: justify;
+}
+.works-section div:last-child{
+  border: #ffff solid 3px;
+  border-radius: var(--style1);
+  overflow: hidden;
+  height: 150px;
+  box-shadow: 0 0 15px #bababa;
+}
+.works-section div > img{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.works-btn{
+  width: 50%;
+  margin: 2rem auto;
+}
+.works-reference-point{
+  position: relative;
+  display: flex;
+  height: 4rem;
+  overflow-x: hidden;
+}
+.works-reference-point div{
+  display: flex;
+  width: 20%;
+  gap: .5rem;
+  margin-left: 1rem;
+}
+.works-reference-point div > img{
+  height: 80%;
+}
+.work-splash{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  transform: translateX(130%) translateY(-30%);
+}
+/* review cards ------------------*/
+.work-reviews{
+  margin: 2rem 0;
+  overflow-x: hidden;
+}
+.work-reviews h2{
+  margin: 1rem auto 2rem;
+  border: var(--steeal-blue) solid 3px;
+  width: 70%;
+}
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #bababa;
+}
+.swiper-slide div{
+  width: 83%;
+  height: 120px;
+  overflow: hidden;
+  padding: 1rem;
+  overflow: hidden;
+}
+.swiper-slide img{
+  border-radius: 0 10px 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide h5{
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.swiper-slide p{
+  line-height: 20px;
+  font-size: .9rem;
+  text-align: justify;
+  margin: 0 2rem;
+  padding: .5rem 0 1rem;
+  font-style: italic;
+}
+.swiper-slide:nth-child(even) h5{
+  color: var(--steeal-blue);
+}

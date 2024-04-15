@@ -73,9 +73,10 @@
 }
 .home-section1 img:first-child{
   position: absolute;
-  width: 70%;
+  width: 90%;
   height: fit-content;
   z-index: -10;
+  left: -140px;
 }
 /* section #2 ---------------------*/
 .home-section2{

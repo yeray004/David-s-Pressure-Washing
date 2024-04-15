@@ -4,7 +4,7 @@
   margin: 1rem 0 0;
 }
 .services-title h1{
-  background-image: linear-gradient(to right, #03318C, #0554F2);
+  background-image: var(--linear-blue);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -35,7 +35,7 @@
   padding: .5rem 0;
   left: .5rem;
   font-size: 1.4rem;
-  background-color: var(--purble-blue);
+  background-color: var(--purple-blue);
   color: #ffff;
   z-index: 50;
 }

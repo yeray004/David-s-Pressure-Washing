@@ -4,7 +4,7 @@ import Link from 'next/link'
 import HomeCarousel from './components/HomeCarousel';
 //Styles and Images
 import './Home.css'
-import splash1 from '../public/images/other/splash1.png';
+import splash1 from '../public/images/other/splash1.svg';
 import splash2 from '../public/images/other/splash2.png';
 import img3 from '../public/images/works/img3.webp';
 import img10 from '../public/images/works/img10.webp';

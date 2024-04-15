@@ -3,7 +3,8 @@
   --regular-blue: #059FF2;
   --cian-blue: #05EAF2;
   --steeal-blue: #0554F2;
-  --purble-blue: #4E05F2;
+  --purple-blue: #4E05F2;
+  --linear-blue: linear-gradient(to top, #03318C, #0554F2);
   /* object round corners */
   --style1: 0 2rem;
   --style2: 2rem 0;
@@ -62,16 +63,17 @@ button{
 }
 .btn-style-1{
   color: #ffff;
-	background: var(--purble-blue);
+	background: var(--purple-blue);
 }
 .btn-style-2{
-  color: var(--purble-blue);
-  border: 4px solid var(--purble-blue);
+  font-weight: bold;
+  color: var(--purple-blue);
+  border: 4px solid var(--purple-blue);
   border-radius: 0 8px 0 8px;
   transition: ease .2s;
 }
 .btn-style-2:hover{
-  background-color: var(--purble-blue);
+  background-color: var(--purple-blue);
   color: #ffff;
 }
 .btn-style-3{
