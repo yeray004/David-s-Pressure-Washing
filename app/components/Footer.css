@@ -42,13 +42,6 @@ footer div:last-child > div > img{
   width: 2rem;
   height: fit-content;
 }
-footer div:last-child > p{
-  height: fit-content;
-  background: rgba(0, 0, 0, 0.7);
-  color: #ffff;
-  padding: .5rem 1rem;
-  border-radius: 1rem;
-}
 .footer-logo{
   width: 80%;
   max-width: 300px;

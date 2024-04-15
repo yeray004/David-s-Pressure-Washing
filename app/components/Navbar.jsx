@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useRef } from 'react';
 //Styles, Images
 import './Navbar.css'
+import logo from '../../public/images/logos/MainLogo.png';
 import BurguerMenu from '../../public/icons/BurguerMenu.svg';
 import close from '../../public/icons/close.svg';
 
@@ -22,7 +23,7 @@ const showNavbar = () => {
 return (
   <>
     <header>
-      <h3>LOGO</h3>
+      <Image  src={logo} alt='BurguerMenu' />
       <nav ref={navRef}>
           <Link href='/' onClick={showNavbar}>Home</Link>
           <Link href='/services' onClick={showNavbar}>Services</Link>

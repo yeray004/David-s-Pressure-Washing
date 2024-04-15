@@ -25,7 +25,7 @@ export default function Footer() {
           <Image  src={tiktok} alt='tiktok' />
           <Image  src={facebook} alt='facebook' />
         </div>
-        <p>+1 (843) 822-6285</p>
+        <p className='btn-style-3'>+1 (843) 822-6285</p>
       </div>
     </footer>
   )
