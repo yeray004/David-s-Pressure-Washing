@@ -68,6 +68,11 @@ button{
   color: var(--purble-blue);
   border: 4px solid var(--purble-blue);
   border-radius: 0 8px 0 8px;
+  transition: ease .2s;
+}
+.btn-style-2:hover{
+  background-color: var(--purble-blue);
+  color: #ffff;
 }
 .btn-style-3{
   display: flex;
