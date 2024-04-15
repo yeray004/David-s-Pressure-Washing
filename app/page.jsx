@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link'
+// Components
+import HomeCarousel from './components/HomeCarousel';
 //Styles and Images
 import './Home.css'
 import splash1 from '../public/images/other/splash1.png';
@@ -14,7 +16,7 @@ export default function Home() {
     <main>
       {/* carrousel */}
       <section className='home-carousel'>
-
+        <HomeCarousel/>
       </section>
       {/* home-section1 */}
       <section className='home-section1'>
