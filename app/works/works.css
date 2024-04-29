@@ -39,7 +39,7 @@
   position: relative;
   display: flex;
   height: 4rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .works-reference-point div{
   display: flex;
