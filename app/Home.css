@@ -80,7 +80,7 @@
 }
 /* section #2 ---------------------*/
 .home-section2{
-  background: linear-gradient(to left, #75CCFF, #467A99);
+  background: var(--linear-bck-blue);
 }
 .home-section2 hr{
   position: relative;

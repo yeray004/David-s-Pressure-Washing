@@ -5,6 +5,7 @@
   --steeal-blue: #0554F2;
   --purple-blue: #4E05F2;
   --linear-blue: linear-gradient(to top, #03318C, #0554F2);
+  --linear-bck-blue: linear-gradient(to left, #75CCFF, #467A99);
   /* object round corners */
   --style1: 0 2rem;
   --style2: 2rem 0;
