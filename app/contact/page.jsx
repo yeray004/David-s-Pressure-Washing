@@ -29,11 +29,12 @@ export default function Contact() {
           </div>
           <div className='contact-section-2'>
             <p>BOOK A FREE ESTIMATE</p>
-            <div>
-              <ContactMessage/>
-            </div>
+            <ContactMessage/>
           </div>
         </section>
+      </section>
+      <section className='ig-widget'>
+        <div class="elfsight-app-05e17371-f1d6-40e8-ab3a-b3ee2cec0ec8" data-elfsight-app-lazy></div>
       </section>
     </main>
   )

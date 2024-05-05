@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer/>
+        <script async src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
       </body>
     </html>
   );
